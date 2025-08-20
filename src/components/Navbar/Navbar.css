@@ -11,6 +11,14 @@ nav{
     justify-content: space-between;
     z-index: 10;
 }
+
 .logo{
     width: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 18px;
 }
