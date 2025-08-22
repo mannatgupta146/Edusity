@@ -19,8 +19,8 @@ a{
 }
 
 .container{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .btn{
@@ -31,4 +31,12 @@ a{
   border: none;
   cursor: pointer;
   font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 10px;
 }
