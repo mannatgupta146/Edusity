@@ -9,8 +9,16 @@ import user4 from '../../assets/user-4.png'
 
 
 const Testimonials = () => {
+    const slideBackward = ()=>{
+        document.querySelector('.slider ul').append(document.querySelector('.slider ul li:first-child'))
+    }
+    const slideForward = ()=>{
+        document.querySelector('.slider ul').prepend(document.querySelector('.slider ul li:last-child'))
+    }
 return (
     <div className='testimonials'>
+        <img src={backIcon} alt="" className='back-btn' onClick={slideForward}/>
+        <img src={nextIcon} alt="" className='next-btn' onClick={slideBackward}/>
         <div className="slider">
             <ul>
                 <li>
@@ -67,8 +75,6 @@ return (
                 </li>
             </ul>
         </div>
-        <img src={backIcon} alt="" className='back-btn'/>
-        <img src={nextIcon} alt="" className='next-btn'/>
     </div>
 )
 }
