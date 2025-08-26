@@ -58,3 +58,20 @@
     margin: 20px 0;
     
 }
+
+/*--- media query ---*/
+
+@media (max-width: 700px){
+    .contact{
+        display: block;
+    }
+
+    .contact-col{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-col ul li img{ 
+        width: 20px;
+    }
+}
