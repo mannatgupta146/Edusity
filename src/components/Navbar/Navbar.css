@@ -67,5 +67,10 @@ nav ul li{
     .menu-icon{ 
         display: block;
         width: 30px;
-        cursor: pointer;}
+        cursor: pointer;
+    }
+
+    .mobile-menu{
+        right: -200px;
+    }
 }
