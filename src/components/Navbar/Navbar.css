@@ -31,6 +31,9 @@ nav ul li{
     display: none;
 }
 
+
+/*--- media query ---*/
+
 @media (max-width: 1000px){
     .logo{
         width: 140px;
