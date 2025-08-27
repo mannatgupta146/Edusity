@@ -27,7 +27,6 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials">
-      {/* Swapped the onClick handlers */}
       <img src={backIcon} alt="" className="back-btn" onClick={slideBackward} />
       <img src={nextIcon} alt="" className="next-btn" onClick={slideForward} />
 
