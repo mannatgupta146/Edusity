@@ -4,8 +4,6 @@ Edusity is a **modern, responsive educational website** built with **React.js**.
 It features smooth navigation, dynamic components, an integrated contact form, and an engaging user interface.  
 The website uses **React Router (React Link)** and **React Scroll** for seamless browsing and is fully **component-based** for better scalability.
 
-
-## 🚀 Live Demo
 🔗 [Visit Edusity](https://edusity-flame-six.vercel.app/)
 
 
@@ -18,13 +16,15 @@ Using **React components**, the entire codebase is modular and easy to manage.
 
 ## 📌 Features
 
-- 🧩 **Component-Based Design** – Each section like Hero, About, Programs, Campus, and Testimonials is built as an independent **React component** for better code reusability.  
-- 🧭 **Smooth Navigation** – Used **React Link** and **React Scroll** for fast, single-page navigation and smooth scrolling.  
-- 🎨 **Responsive UI** – Fully optimized for mobile, tablet, and desktop devices.  
-- 🎥 **Interactive Video Player** – Allows users to watch campus videos directly on the site.  
-- 📩 **Contact Form** – Integrated with **Web3Forms** for secure and seamless form submissions.  
-- 🌟 **Dynamic Content** – Includes student testimonials, campus gallery, and programs with a clean and modern layout.  
-- ⚡ **Optimized Performance** – Built using React hooks like `useState` and `useRef` for better interactivity and faster loading.  
+| 🚀 Feature               | ✨ Description |
+|-------------------------|----------------|
+| 🧩 **Component-Based**   | Independent React components for better reusability. |
+| 🧭 **Smooth Navigation** | Fast single-page navigation with smooth scrolling. |
+| 🎨 **Responsive UI**     | Optimized for mobile, tablet, and desktop devices. |
+| 🎥 **Video Player**      | Watch campus videos directly on the site. |
+| 📩 **Contact Form**      | Integrated with **Web3Forms** for secure submissions. |
+| 🌟 **Dynamic Content**   | Includes testimonials, gallery, and programs. |
+| ⚡ **High Performance**  | Uses React hooks for faster and interactive UI. |
 
 
 ## 🛠 Tech Stack
